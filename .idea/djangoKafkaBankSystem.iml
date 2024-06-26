@@ -14,11 +14,20 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/AccountService" />
-    <content url="file://$MODULE_DIR$/UserService" />
-    <orderEntry type="jdk" jdkName="Python 3.12 (djangoKafkaBankSystem)" jdkType="Python SDK" />
+    <content url="file://$MODULE_DIR$/UserService">
+      <excludeFolder url="file://$MODULE_DIR$/UserService/.venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.12 (UserService)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/UserService/core/templates" />
+        <option value="$MODULE_DIR$/UserService/templates" />
+        <option value="$MODULE_DIR$/UserService/authenticate/templates" />
+      </list>
+    </option>
   </component>
 </module>
